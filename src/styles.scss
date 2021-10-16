@@ -1,0 +1,171 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: white;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: black;
+}
+
+mat-label {
+  color: black !important;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 0 !important;
+}
+
+mat-dialog-container.mat-dialog-container {
+  width: 100%;
+  max-height: 80vh;
+}
+
+.blocker {
+  background: rgba(#707070, 0.74);
+}
+
+.modal {
+  width: 100%;
+  max-width: 46.5rem;
+  box-shadow: 0 0 0.75rem rgba(#000, 0.2);
+  padding: 2.1875rem;
+  border-radius: 0;
+}
+
+
+.modal a.close-modal {
+  display: none;
+}
+
+.modal-close {
+  position: absolute;
+  right: 2.1875rem;
+  top: 2.8125rem;
+}
+
+
+.modal-header {
+
+}
+
+.modal-header__title {
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+}
+
+
+.modal-content {
+  margin-top: 0.625rem;
+}
+
+.modal-footer {
+  margin-top: 1.875rem;
+}
+
+.modal-footer .c-btn--primary,
+.modal-footer .c-btn--secondary,
+.modal-footer .c-btn--transparent {
+  min-width: 10rem;
+  margin-left: 1.25rem;
+}
+
+.c-btn--primary, .mat-button.c-btn--primary {
+  display: inline-block;
+  background-color: #3953A0;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  height: 56px;
+  padding: 15px;
+  line-height: 24px;
+  min-width: 190px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.c-btn--secondary, .mat-button.c-btn--secondary {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #fd8200;
+  color: #f86604;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  height: 56px;
+  padding: 15px;
+  line-height: 24px;
+  min-width: 190px;
+  text-align: center;
+  font-size: 16px;
+
+  .mat-button-focus-overlay {
+    display: none;
+  }
+}
+
+
+.mat-table.c-data-table {
+  width: 50%;
+  display: table;
+
+  th, td {
+    font-size: 0.9375rem;
+    vertical-align: middle;
+  }
+
+  th {
+    padding: 0.4375rem 0.5rem;
+    line-height: 1.125rem;
+    color: rgba(#000, 0.87);
+    font-weight: 500;
+    text-align: left;
+    background: #F0F0F0;
+    border-bottom: 0.0625rem solid #E3E3E3;
+
+    span[class*="fa-"] {
+      vertical-align: 0;
+      margin-left: 0.1875rem;
+      font-size: 0.75rem;
+      color: #898989;
+      width: 0.75rem;
+      height: 0.75rem;
+      text-align: center;
+    }
+
+  }
+
+  td {
+    padding: 0.625rem 0.5rem;
+    border-bottom: 0.0625rem solid #E3E3E3;
+    line-height: 1.125rem;
+    color: rgba(#000, 0.87);
+
+    span[class*="fa-"] {
+      margin-right: 0.1875rem;
+    }
+  }
+
+  td:first-child, th:first-child {
+    padding-left: 0.625rem;
+  }
+
+  td:last-child, th:last-child {
+    padding-right: 0.625rem;
+  }
+
+  .c-data-table__controls {
+    width: 3.75rem;
+  }
+}
